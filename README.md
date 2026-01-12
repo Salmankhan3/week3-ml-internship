@@ -109,6 +109,11 @@ Then load the model in another notebook and prit file size in kb and print loadi
 4. print file size and loading time. <br> <br> <br>
 ![''](screenshots/Screenshot%20(180).png) <br>
 
+## Lincense Information
+MIT License  <br>
+Read more ![License](LICENSE)
+Copyright (c) 2025 Salman Khan
+
 
 
 
