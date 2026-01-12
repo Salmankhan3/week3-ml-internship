@@ -28,36 +28,36 @@ Plot all model on same graph to visualize underfitting and overfitting. In taks 
 5. Plot data and regrssion line
 6. Plot cost and number of iteration
 ## Implement LinearRegrssionScratch class
-!['linear-regrssion scratch'](screenshots/Screenshot%20(163).png) <br>
-## Define dependent and independent varaible and fit the model <br>
-!['linear-regrssion scratch'](screenshots/Screenshot%20(164).png) <br>
-## Predict new data, calculate R square score and plot actual data and regression line. <br>
-!['linear-regrssion scratch'](screenshots/Screenshot%20(165).png) <br>
-# Task 3.2: Multiple Linear Regression with sklearn (3 hours) <br>
-## In this task i have loaded california housing data set trained multiple regression on it and calculate MAE, MSE, RMSE and r2 score. <br>
-1. Load data set and check for null values. <br>
-!['Multiple regression'](screenshots/Screenshot%20(166).png) <br>
-2.Calculate Corelation and draw sns heatmap to visusalize correlation. <br>
-!['correlation'](screenshots/Screenshot%20(167).png) <br>
-3.Split dataset. <br>
-!['split data set'](screenshots/Screenshot%20(168).png) <br>
-4.Train multiple regression, make prediction and calculate diiferent metrics. <br>
-!['train_model'](screenshots/Screenshot%20(169).png) <br>
-5.Plot actual data and regrssion line <br>
-!['plot'](screenshots/Screenshot%20(171).png) <br>
+!['linear-regrssion scratch'](screenshots/Screenshot%20(163).png) <br> <br> <br>
+## Define dependent and independent varaible and fit the model <br> <br> <br>
+!['linear-regrssion scratch'](screenshots/Screenshot%20(164).png) <br> <br> <br>
+## Predict new data, calculate R square score and plot actual data and regression line. <br> <br> <br>
+!['linear-regrssion scratch'](screenshots/Screenshot%20(165).png) <br> <br> <br>
+# Task 3.2: Multiple Linear Regression with sklearn (3 hours) <br> <br> <br>
+## In this task i have loaded california housing data set trained multiple regression on it and calculate MAE, MSE, RMSE and r2 score. <br> <br> <br>
+1. Load data set and check for null values. <br> <br> <br>
+!['Multiple regression'](screenshots/Screenshot%20(166).png) <br> <br> <br>
+2.Calculate Corelation and draw sns heatmap to visusalize correlation. <br> <br> <br>
+!['correlation'](screenshots/Screenshot%20(167).png) <br> <br> <br>
+3.Split dataset. <br> <br> <br>
+!['split data set'](screenshots/Screenshot%20(168).png) <br> <br> <br>
+4.Train multiple regression, make prediction and calculate diiferent metrics. <br> <br> <br>
+!['train_model'](screenshots/Screenshot%20(169).png) <br> <br> <br>
+5.Plot actual data and regrssion line <br> <br> <br>
+!['plot'](screenshots/Screenshot%20(171).png) <br> <br> <br>
 
-# Task 3.3: Polynomial Regression & Overfitting (4 hours)  <br>
+# Task 3.3: Polynomial Regression & Overfitting (4 hours)  <br> <br> <br>
 ## In this task iave implemented Polynomail regression using degree 1,2,3,5 and 10 and identify underfiting and overfitting.Plot actual data point and regression line.Plot all model on same graph. Plot learinig curve of each model.
-1. Fit linear Regression <br>
-!['linear-regression'](screenshots/Screenshot%20(172).png) <br>
-2.fit polynomail regrssion with dgree 2. print model weights.make new predictions. <br>
-!['Poly regression'](screenshots/Screenshot%20(173).png)  <br>
-3. Plot 3rd degree Polynomail. <br>
+1. Fit linear Regression <br> <br> <br>
+!['linear-regression'](screenshots/Screenshot%20(172).png) <br> <br> <br>
+2.fit polynomail regrssion with dgree 2. print model weights.make new predictions. <br> <br> <br>
+!['Poly regression'](screenshots/Screenshot%20(173).png)  <br> <br> <br>
+3. Plot 3rd degree Polynomail. <br> <br> <br>
 ![''](screenshots/Screenshot%20(175).png)
-4.plot all model on same graph and calculate training and testing error.
-![''](screenshots/Screenshot%20(176).png)
-## Table showing errors for each degree 
-<table border="1" cellpadding="8" cellspacing="0">
+4.plot all model on same graph and calculate training and testing error. <br> <br> <br>
+![''](screenshots/Screenshot%20(176).png) <br> <br>
+## Table showing errors for each degree  <br> <br>
+<table border="1" cellpadding="8" cellspacing="0"> 
   <thead>
     <tr>
       <th>Degree</th>
@@ -95,21 +95,21 @@ Plot all model on same graph to visualize underfitting and overfitting. In taks 
 </table>
 
 # Overfitting and ubderfitting
-Low train + high test error → Overfitting (Degree 5,10)
-High train + high test error → Underfitting (degree 1 and 2)
-Balanced low errors → Good fit (Degree 3)
+Low train + high test error → Overfitting (Degree 5,10)  <br> <br>
+High train + high test error → Underfitting (degree 1 and 2)  <br> <br>
+Balanced low errors → Good fit (Degree 3)  <br> <br>
 <br><br>
 
 # Task 3.4: Model Persistence - Saving & Loading (2 hours)
 In this task I have trained 3rd degree polynomail and save the model usind pickle, joblib and json.
 Then load the model in another notebook and prit file size in kb and print loading time using time module.
 1. Define X and y and plot data points
-![''](screenshots/Screenshot%20(177).png)
-2.Save model and model weights.
-![''](screenshots/Screenshot%20(178).png)
-3.Create anather notebook and laod the model. <br>
-![''](screenshots/Screenshot%20(179).png) <br>
-4. print file size and loading time. <br>
+![''](screenshots/Screenshot%20(177).png) <br> <br>
+2.Save model and model weights. <br> <br>
+![''](screenshots/Screenshot%20(178).png) <br> <br>
+3.Create anather notebook and laod the model. <br> <br> <br>
+![''](screenshots/Screenshot%20(179).png) <br> <br> <br>
+4. print file size and loading time. <br> <br> <br>
 ![''](screenshots/Screenshot%20(180).png) <br>
 
 
