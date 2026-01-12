@@ -17,6 +17,7 @@ Plot all model on same graph to visualize underfitting and overfitting. In taks 
 - [Task 3.1: Simple Linear Regression from Scratch (4 hours)](#Simple-Linear-Regression-from-Scratch) <br>
 - ['Task 3.2: Multiple Linear Regression with sklearn (3 hours)'](#Multiple-Linear-Regression-with-sklearn) <br>
 - ['Task 3.3: Polynomial Regression & Overfitting (4 hours)'](#Polynomial-Regression-&-Overfitting) <br>
+-['Task 3.4: Model Persistence - Saving & Loading (2 hours)'](#Model-Persistence)
 
 ## Task 3.1: Simple Linear Regression from Scratch (4 hours)
 
@@ -92,5 +93,24 @@ Plot all model on same graph to visualize underfitting and overfitting. In taks 
     </tr>
   </tbody>
 </table>
+# Overfitting and ubderfitting
+Low train + high test error → Overfitting (Degree 5,10)
+High train + high test error → Underfitting (degree 1 and 2)
+Balanced low errors → Good fit (Degree 3)
+<br> <br>
+# Task 3.4: Model Persistence - Saving & Loading (2 hours)
+In this task I have trained 3rd degree polynomail and save the model usind pickle, joblib and json.
+Then load the model in another notebook and prit file size in kb and print loading time using time module.
+1. Define X and y and plot data points
+![''](screenshots/Screenshot%20(177).png)
+2.Save model and model weights.
+![''](screenshots/Screenshot%20(178).png)
+3.Create anather notebook and laod the model. <br>
+![''](screenshots/Screenshot%20(179).png) <br>
+4. print file size and loading time. <br>
+![''](screenshots/Screenshot%20(180).png) <br>
+
+
+
 
 
