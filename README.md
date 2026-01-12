@@ -15,5 +15,31 @@ Plot all model on same graph to visualize underfitting and overfitting. In taks 
 
 ## 📑 Table of Contents
 -[Task 3.1: Simple Linear Regression from Scratch (4 hours)](#Simple-Linear-Regression-from-Scratch)
+['Task 3.2: Multiple Linear Regression with sklearn (3 hours)'](#Multiple-Linear-Regression-with-sklearn)
 
 ## Task 3.1: Simple Linear Regression from Scratch (4 hours)
+
+1. create class called LinearRegressionScratch. 
+2. Implement gradient descend algorithm in fit method.
+3. create predict method to predict new data.
+4. calulate r square score
+5. Plot data and regrssion line
+6. Plot cost and number of iteration
+## Implement LinearRegrssionScratch class
+!['linear-regrssion scratch'](#screenshots%20(163))
+## Define dependent and independent varaible and fit the model
+!['linear-regrssion scratch'](#screenshots%20(164))
+## Predict new data, calculate R square score and plot actual data and regression line.
+!['linear-regrssion scratch'](#screenshots%20(165))
+# Task 3.2: Multiple Linear Regression with sklearn (3 hours)
+## In this task i have loaded california housing data set trained multiple regression on it and calculate MAE, MSE, RMSE and r2 score.
+1. Load data set and check for null values.
+!['Multiple regression'](#screenshots%20(166))
+2.Calculate Corelation and draw sns heatmap to visusalize correlation.
+!['correlation'](#screenshots%20(167))
+3.Split dataset.
+!['split data set'](#screenshots%20(168))
+4.Train multiple regression, make prediction and calculate diiferent metrics.
+!['train_model'](#screenshots%20(169))
+5.Plot actual data and regrssion line
+!['plot'](#screenshots%20(171))
