@@ -16,6 +16,7 @@ Plot all model on same graph to visualize underfitting and overfitting. In taks 
 ## 📑 Table of Contents
 - [Task 3.1: Simple Linear Regression from Scratch (4 hours)](#Simple-Linear-Regression-from-Scratch) <br>
 - ['Task 3.2: Multiple Linear Regression with sklearn (3 hours)'](#Multiple-Linear-Regression-with-sklearn) <br>
+- ['Task 3.3: Polynomial Regression & Overfitting (4 hours)'](#Polynomial-Regression-&-Overfitting) <br>
 
 ## Task 3.1: Simple Linear Regression from Scratch (4 hours)
 
@@ -26,20 +27,70 @@ Plot all model on same graph to visualize underfitting and overfitting. In taks 
 5. Plot data and regrssion line
 6. Plot cost and number of iteration
 ## Implement LinearRegrssionScratch class
-!['linear-regrssion scratch'](screenshots/Screenshot%20(163).png)
-## Define dependent and independent varaible and fit the model
-!['linear-regrssion scratch'](screenshots/Screenshot%20(164).png)
-## Predict new data, calculate R square score and plot actual data and regression line.
-!['linear-regrssion scratch'](screenshots/Screenshot%20(165).png)
-# Task 3.2: Multiple Linear Regression with sklearn (3 hours)
-## In this task i have loaded california housing data set trained multiple regression on it and calculate MAE, MSE, RMSE and r2 score.
-1. Load data set and check for null values.
-!['Multiple regression'](screenshots/Screenshot%20(166).png)
-2.Calculate Corelation and draw sns heatmap to visusalize correlation.
-!['correlation'](screenshots/Screenshot%20(167).png)
-3.Split dataset.
-!['split data set'](screenshots%20(168).png)
-4.Train multiple regression, make prediction and calculate diiferent metrics.
-!['train_model'](screenshots%20(169).png)
-5.Plot actual data and regrssion line
-!['plot'](#screenshots%20(171).png)
+!['linear-regrssion scratch'](screenshots/Screenshot%20(163).png) <br>
+## Define dependent and independent varaible and fit the model <br>
+!['linear-regrssion scratch'](screenshots/Screenshot%20(164).png) <br>
+## Predict new data, calculate R square score and plot actual data and regression line. <br>
+!['linear-regrssion scratch'](screenshots/Screenshot%20(165).png) <br>
+# Task 3.2: Multiple Linear Regression with sklearn (3 hours) <br>
+## In this task i have loaded california housing data set trained multiple regression on it and calculate MAE, MSE, RMSE and r2 score. <br>
+1. Load data set and check for null values. <br>
+!['Multiple regression'](screenshots/Screenshot%20(166).png) <br>
+2.Calculate Corelation and draw sns heatmap to visusalize correlation. <br>
+!['correlation'](screenshots/Screenshot%20(167).png) <br>
+3.Split dataset. <br>
+!['split data set'](screenshots/Screenshot%20(168).png) <br>
+4.Train multiple regression, make prediction and calculate diiferent metrics. <br>
+!['train_model'](screenshots/Screenshot%20(169).png) <br>
+5.Plot actual data and regrssion line <br>
+!['plot'](screenshots/Screenshot%20(171).png) <br>
+
+# Task 3.3: Polynomial Regression & Overfitting (4 hours)  <br>
+## In this task iave implemented Polynomail regression using degree 1,2,3,5 and 10 and identify underfiting and overfitting.Plot actual data point and regression line.Plot all model on same graph. Plot learinig curve of each model.
+1. Fit linear Regression <br>
+!['linear-regression'](screenshots/Screenshot%20(172).png) <br>
+2.fit polynomail regrssion with dgree 2. print model weights.make new predictions. <br>
+!['Poly regression'](screenshots/Screenshot%20(173).png)  <br>
+3. Plot 3rd degree Polynomail. <br>
+![''](screenshots/Screenshot%20(175).png)
+4.plot all model on same graph and calculate training and testing error.
+![''](screenshots/Screenshot%20(176).png)
+## Table showing errors for each degree 
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Degree</th>
+      <th>Train MSE</th>
+      <th>Test MSE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>0.230156678</td>
+      <td>0.317962888</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>0.224718633</td>
+      <td>0.290678892</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>0.073689653</td>
+      <td>0.092421277</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>0.073148923</td>
+      <td>0.099644493</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>0.072338691</td>
+      <td>0.106363916</td>
+    </tr>
+  </tbody>
+</table>
+
+
