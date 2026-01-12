@@ -111,7 +111,7 @@ Then load the model in another notebook and prit file size in kb and print loadi
 
 ## Lincense Information
 MIT License  <br>
-Read more ![License](LICENSE)
+Read more ![License](LICENSE.md)
 Copyright (c) 2025 Salman Khan
 
 
