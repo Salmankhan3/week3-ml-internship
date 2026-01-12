@@ -14,6 +14,6 @@ mean square error (MSE),root mean square error (RMSE) and r square score. In tas
 Plot all model on same graph to visualize underfitting and overfitting. In taks 3.4 I have trained plynomail regrssion and save model uisng pickle,joblib and json.Load the model and print file size and time for loading.
 
 ## 📑 Table of Contents
--[Simple-Linear-Regression-from-Scratch] Task 3.1: Simple Linear Regression from Scratch (4 hours)
+-[Task 3.1: Simple Linear Regression from Scratch (4 hours)](#Simple-Linear-Regression-from-Scratch)
 
 ## Task 3.1: Simple Linear Regression from Scratch (4 hours)
